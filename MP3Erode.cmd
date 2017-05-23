@@ -45,5 +45,6 @@ if exist file%stopcount%.mp3 (goto stop) else goto start
 :: Things to do after it's finished
 :stop
 echo.
-echo Queue finished
-pause
+echo MP3 erosion complete, enjoy your insanity.
+echo Press any key to exit.
+pause >nul
