@@ -2,11 +2,11 @@
 Generation loss experiment for MP3
 
 ## Usage
-Just rename the MP3 file to 0.mp3 and unzip ffmpeg.exe and the script to the same folder.
-
-Make sure all the files are in the same folder.
-
-Then just run the script. It'll do the job for you.
+1. Place any WAV file (with number-only filename) to the folder with the script and FFMPEG executable.
+2. Run the script.
+3. Set the offset, it must be a number.
+4. Set when to stop (nth conversion)
+5. Feel the insanity.
 
 ## Note
-By default, this uses ACM codec instead of LAME. The outcome really depends on the encoder, so try changing it too.
+The outcome really depends on the encoder, so try changing it to different encoders to see what changes.
